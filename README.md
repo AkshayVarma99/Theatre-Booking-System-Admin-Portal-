@@ -6,8 +6,8 @@ A dynamic web application designed to streamline the management of entertainment
 
 ## 📌 Table of Contents
 
-1. [Introduction](#📖-introduction)
-2. [Features](#🚀-features)
+1. [Introduction](#introduction)
+2. [Features](#features)
 3. [Tech Stack](#tech-stack)
 4. [Installation and Setup](#installation-and-setup)
 5. [API Endpoints](#api-endpoints)
@@ -17,7 +17,7 @@ A dynamic web application designed to streamline the management of entertainment
 
 ---
 
-## 📖 Introduction
+## Introduction
 
 The **Theatre Booking System** is tailored for theatre administrators to efficiently manage entertainment shows. Administrators can:
 - Create and edit show details such as description, duration, price, timings, and availability.
@@ -26,7 +26,7 @@ The **Theatre Booking System** is tailored for theatre administrators to efficie
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Administrator Functionalities
 - **Add/Modify Shows**: Input or update show details like title, genre, timing, and ticket availability.
@@ -49,7 +49,7 @@ The **Theatre Booking System** is tailored for theatre administrators to efficie
 
 ---
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 Ensure you have the following installed on your system:
@@ -88,7 +88,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-## 🔗 API Endpoints
+## API Endpoints
 
 ### User Endpoints
 | Endpoint                    | Method | Description                           |
@@ -110,19 +110,19 @@ Ensure you have the following installed on your system:
 
 ---
 
-## 🌟 Future Enhancements
+## Future Enhancements
 - **User Ticketing System**: Add features for end-users to book tickets.
 - **Real-Time Updates**: Implement notifications for show updates.
 - **Analytics Dashboard**: Visualize show performance metrics.
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 The Theatre Booking System effectively bridges the gap between administrators and seamless show management. With an intuitive UI and powerful backend, it serves as a robust tool for modern-day entertainment workflow optimization.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For any questions or feedback, please reach out to [aavarma238_personal@yahoo.com](mailto:aavarma238_personal@yahoo.com).
