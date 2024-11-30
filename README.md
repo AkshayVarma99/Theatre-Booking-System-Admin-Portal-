@@ -6,8 +6,8 @@ A dynamic web application designed to streamline the management of entertainment
 
 ## 📌 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Features](#features)
+1. [Introduction](#📖-introduction)
+2. [Features](#🚀-features)
 3. [Tech Stack](#tech-stack)
 4. [Installation and Setup](#installation-and-setup)
 5. [API Endpoints](#api-endpoints)
