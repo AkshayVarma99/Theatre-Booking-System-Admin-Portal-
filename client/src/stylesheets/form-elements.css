@@ -1,0 +1,50 @@
+input, textarea,select{
+    height: 45px;
+    padding-left: 20px;
+    border: 1px solid rgb(190, 184, 184);  
+    width:100%
+}
+
+input:focus, textarea:focus,select:focus{
+    outline: none;
+    border: 2px solid #2f7dd0;
+}
+
+textarea{
+    min-height: 100px;
+    padding:20px;
+}
+
+.ant-form-item{
+    margin-bottom: 15px;
+}
+
+
+.sidebar {
+    display: flex;
+    
+    width: 300px; 
+    
+  }
+  
+  .main {
+    margin-left: 256px; /* Margin equal to the width of the sidebar */
+  }
+  
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* This will push the footer to the bottom */
+}
+
+.footer {
+    background: #fff; /* match the background color */
+}
+

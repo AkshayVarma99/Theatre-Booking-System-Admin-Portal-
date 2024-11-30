@@ -1,0 +1,158 @@
+/* admin.css */
+
+.admin-container {
+    padding: 20px;
+    background-color: #f0f0f6ca; /* \ background color to white or any other light shade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*  subtle shadow to the container */
+    border-radius: 8px; /* Smooth the edges with a larger border-radius */
+    margin: 20px; /*   margin around the container */
+  }
+  
+  .tabs-container {
+    margin-top: 10px; /* Give some space above the tabs */
+  }
+  
+  .tab-title {
+    font-weight: 400; /* Bold but not too heavy */
+    color: #052736; /* Match the color to  navigation bar blue */
+    font-size: 18px; /*  larger font size for better readability */
+    padding: 10px 16px; /*   vertical padding to the tab titles */
+  }
+  
+  /* Override ant design styles for the tab panes */
+  .ant-tabs-tab {
+    border: 0 !important; /* Remove any border */
+    padding: 0 16px; /* Horizontal padding for each tab */
+
+  }
+  
+  .ant-tabs-nav {
+    margin: 0 !important; /* Remove margin around the nav */
+  }
+  
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #1890ff; /* Highlight color for the active tab */
+  }
+  
+  .ant-tabs-ink-bar {
+    background: #1890ff; /*  a highlight color for the ink bar */
+  }
+  
+  /* Make the active tab stand out */
+  .ant-tabs-tab.ant-tabs-tab-active {
+    background-color: #9fccdc; /* Light background for the active tab */
+    border-radius: 4px; /* Rounded corners for the active tab */
+    margin-right: 2px; /* Space between tabs */
+  }
+  
+  /* Styles for the tab content */
+  .ant-tabs-content {
+    padding-top: 20px; /* Space above the content */
+  }
+  
+
+  /* login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  /*  card styles */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /*  border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.register-link {
+  color: #007bff; /*  register link color */
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.login-container {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity  */
+  z-index: -1; /* Push the overlay behind the form */
+
+}
+
+
+
+/* register.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  /* Add card styles */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.login-extra-writing {
+  text-align: center;
+  color: #2f7dd0;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.login-extra-writing:hover {
+  color: #bea8a8;
+}
+
+.register-container {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust overlay opacity  */
+  z-index: -1;
+}
