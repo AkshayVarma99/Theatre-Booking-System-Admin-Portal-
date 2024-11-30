@@ -39,7 +39,7 @@ The **Theatre Booking System** is tailored for theatre administrators to efficie
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js (Ant Design for components)
 - **Backend**: Node.js with Express.js
